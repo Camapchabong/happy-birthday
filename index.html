@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HPBD Trần Phương Linh</title>
+	<meta charset="UTF-8" />
+	<meta name="description" content="Happy Birthday">
+	<meta name="robots" content="index, follow" />
+	<link rel="author" href="http://www.github.com/sachin0987" /> 
+    <meta name="keywords" content="Birthday, Happy">
+    <meta property="og:type" content="E-Greeting" />
+    <meta property="og:image" content="favicon.ico" />
+    <meta property="og:description" content="Wish you a very Happy Birthday">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+
+	<!-- BOOTSTRAP ver 3.3.1 CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+<!-- CUSTOM STYLESHEET -->
+<link rel="stylesheet" type="text/css" href="./stylesheet.css">
+
+<!-- FONT GOOGLE -->
+<link href="https://fonts.googleapis.com/css?family=Signika" rel="stylesheet" type="text/css">
+<!-- LOADING CSS -->
+<link rel="stylesheet" type="text/css" href="./css/loading.css">
+
+<!-- CAKE CSS -->
+<link rel="stylesheet" href="./css/cake.css">
+
+<!-- MAIN CSS -->
+<link rel="stylesheet" type="text/css" href="./css/index.css">
+
+</head>
+
+<body>
+	<div class="loading"></div>
+
+	<!-- Music -->
+	<audio class="song" controls loop>
+		<source src="./music/hbd1.mp3">
+		</source>
+		Your browser isn't invited for super fun audio time.
+	</audio>
+	<!-- Character  -->
+	<div class="balloons text-center" id="b1">
+		<h2 style="color:#F2B300;">H</h2>
+	</div>
+	<div class="balloons text-center" id="b2">
+		<h2 style="color:#0719D4;">P</h2>
+	</div>
+	<div class="balloons text-center" id="b3">
+		<h2 style="color:#D14D39;">B</h2>
+	</div>
+	<div class="balloons text-center" id="b4">
+		<h2 style="color:#8FAD00;">D</h2>
+	</div>
+	<div class="balloons text-center" id="b5">
+		<h2 style="color:#8377E4;">T</h2>
+	</div>
+	<div class="balloons text-center" id="b6">
+		<h2 style="color: #a7af58;">P</h2>
+	</div>
+	<div class="balloons text-center" id="b7">
+		<h2 style="color:#00cec9;">L</h2>
+	</div>
+
+	<!-- Flying balls -->
+	<img src="./img/Balloon-Border.png" width="100%" class="balloon-border">
+
+	<!-- Main Content -->
+	<div class="container">
+
+		<div class="row">
+			<div class="col-md-2 col-xs-2 bulb-holder">
+				<div class="bulb" id="bulb_yellow"></div>
+			</div>
+			<div class="col-md-2 col-xs-2 bulb-holder">
+				<div class="bulb" id="bulb_red"></div>
+			</div>
+			<div class="col-md-2 col-xs-2 bulb-holder">
+				<div class="bulb" id="bulb_blue"></div>
+			</div>
+			<div class="col-md-2 col-xs-2 bulb-holder">
+				<div class="bulb" id="bulb_green"></div>
+			</div>
+			<div class="col-md-2 col-xs-2 bulb-holder">
+				<div class="bulb" id="bulb_pink"></div>
+			</div>
+			<div class="col-md-2 col-xs-2 bulb-holder">
+				<div class="bulb" id="bulb_orange"></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<img src="./img/banner.png" class="bannar">
+			</div>
+		</div>
+		<div class="row cake-cover">
+			<div class="col-md-12 text-center cake-area">
+				<img src="./img/left.jpg" class="side-image side-left" alt="Left gift" />
+				<div class="cake">
+					<div class="velas">
+						<div class="fuego"></div>
+						<div class="fuego"></div>
+						<div class="fuego"></div>
+						<div class="fuego"></div>
+						<div class="fuego"></div>
+					</div>
+					<div class="cobertura"></div>
+					<div class="bizcocho"></div>
+				</div>
+				<img src="./img/right.jpg" class="side-image side-right" alt="Right gift" />
+			</div>
+		</div>
+		<div class="row message">
+			<div class="col-md-12">
+				<p>Nhân dịp đặc biệt tuổi 18 của em nên anh có món nhà nhỏ này, mong em vui vẻ đón nhận 🎉</p>
+				<p>Chúc em tuổi mới luôn xinh đẹp, học giỏi, gặp nhiều may mắn trong tuổi 18 này 🎉</p>
+				<p>Hãy chuẩn bị hành trang thật vững để viết tiếp những trang nhật ký của mình trên UEH nhé 🎉</p>
+				<p>Chúc em có một cuộc sống sinh viên thật đáng nhớ và hạnh phúc, Happy birthday! 🎂🎂🎂</p>
+			</div>
+		</div>
+		<div class="navbar navbar-fixed-bottom">
+			<div class="row">
+				<div class="col-md-6 text-center col-md-offset-3">
+					<button class="btn btn-primary" id="turn_on">Turn On Lights</button>
+					<button class="btn btn-primary" id="play">Play Music</button>
+					<button class="btn btn-primary" id="bannar_coming">Let's Decorate</button>
+					<button class="btn btn-primary" id="balloons_flying">Fly With Balloons</button>
+					<button class="btn btn-primary" id="cake_fadein">Most Delicious Cake Ever</button>
+					<button class="btn btn-primary" id="light_candle"> Light Candle</button>
+					<button class="btn btn-primary" id="wish_message">Happy Birthday</button>
+					<button class="btn btn-primary" id="story">A mesage for you</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+<!-- Library JQUERY -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+<!-- JS BOOTSTRAP ver 3.3.1 -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+<!-- MAIN JS -->
+<script src="/js/effect.js"></script>
+<script>
+	(function (i, s, o, g, r, a, m) {
+		i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+			(i[r].q = i[r].q || []).push(arguments)
+		}, i[r].l = 1 * new Date(); a = s.createElement(o),
+			m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+	})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+	ga('create', 'UA-58229732-1', 'auto');
+	ga('send', 'pageview');
+
+</script>
+
+</html>
